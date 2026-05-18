@@ -18,14 +18,18 @@ print("Then watch your story come to life!\n")
 # input() pauses the program and waits for the user to type something
 # Whatever they type gets stored in a variable (the word on the left)
 
-name        = input("Enter a person's name: ")
-place       =  input("Enter a place (city, planet, jungle...): ")
-animal      = input("Enter an animal: ")
-adjective1  = input("Enter an adjective (describing word): ")
-adjective2  = input("Enter another adjective: ")
-verb_past   = input("Enter a verb in past tense (ran, ate, flew...): ")
-number      = input("Enter a number: ")
-food        = input("Enter a food: ")
+name         = input("Enter a person's name: ")
+place        = input("Enter a place (city, planet, jungle...): ")
+animal       = input("Enter an animal: ")
+adjective1   = input("Enter an adjective (describing word): ")
+adjective2   = input("Enter another adjective: ")
+verb_past    = input("Enter a verb in past tense (ran, ate, flew...): ")
+verb_present = input("Enter a verb in present tense (run, eat, fly..): ")
+number       = input("Enter a number: ")
+food         = input("Enter a food: ")
+sound        = input("Enter a loud sound (bang, crash, roas...): ")
+color        = input("Enter a color: ")
+
 
 # --- STEP 3: Build the story ---
 # f-strings let you plug variables directly into text
@@ -37,17 +41,27 @@ story = f"""
     YOUR MAD LIB STORY
 {'=' * 40}
 
-One {adjective1} morning, {name.upper()} woke up in {place}
+One {adjective1} morning, {name.upper()} woke up in {place},
 and immediately spotted a {adjective2} {animal} sitting on 
-the kitchen table, eating all the {food}.
+the kitchen table, eating all the {food}. 
 
 "{name} let out a scream and {verb_past} away so fast that they 
 ran {number} miles without stopping.
 
 Scientists later confirmed it was the most {adjective1}
-encounter with a {animal} ever recorded in {place}.
+encounter with a {animal.upper()} ever recorded in {place}.
 
 The {animal} was never seen again. The {food} was gone forever.
+
+But one day {name} was in the house when heard {sound},
+{name} went to check where it was coming from, 
+and saw the {animal}, it was {color}, but this time
+{name} did not {verb_present}, only looked at the {animal},
+opened the fridge and offered left over {food}, 
+even {animal} was surprised, but without hesitation 
+{animal} took the food and left the house immediately.
+
+And that was the last time {name} saw the {animal}.
 
 THE END.
 {'=' * 40}
