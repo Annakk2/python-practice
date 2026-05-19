@@ -7,6 +7,7 @@ A collection of beginner Python projects built while learning fundamentals.
 | # | Project | Concepts Practiced |
 |---|---------|---------------------|
 | 1 | Mad Libs Generator | variables, input(), f-strings |
+| 2 | Guessing Game      | import, while loops, if/elif/else, try/except |
 
 ## How to Run
 
