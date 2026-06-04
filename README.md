@@ -9,3 +9,4 @@ A collection of beginner Python projects built while learning fundamentals.
 | 1 | Mad Libs Generator | variables, input(), f-strings |
 | 2 | Guessing Game      | import, while loops, if/elif/else, try/except |
 | 3 | To_Do_List | if/elif/else, def, while loop, try/except | 
+| 4 | Calculator | tkinter |
