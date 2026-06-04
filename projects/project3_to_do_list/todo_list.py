@@ -36,7 +36,7 @@ def view_tasks():
         print("\nYour to-do list is empty. Add something!")
         return # return exits the function early - nothing left to do
     print(f"You have {len(tasks)} tasks(s) remaining.")
-
+    
     # enumerate() gives you both the index AND the value as you loop
     # We start at 1 so the list shows 1, 2, 3 instead of 0, 1, 2
     for number, task in enumerate(tasks, start=1):
